@@ -1,0 +1,152 @@
+/* charity: water Brand Colors & Fonts
+
+Primary Colors:
+- Yellow:     #FFC907
+- Blue:       #2E9DF7
+
+Secondary Colors:
+- Light Blue: #8BD1CB
+- Green:      #4FCB53
+- Orange:     #FF902A
+- Red:        #F5402C
+- Dark Green: #159A48
+- Pink:       #F16061
+
+Fonts:
+- Proxima Nova
+- Avenir
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('images/Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.6;
+  color: #fffdf7;
+}
+
+.top-bar {
+  background: #fff7e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+    width: 32px;
+    height: auto;
+}
+
+.logo h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  color: #005b99;
+}
+
+.trial-btn {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fbb03b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  background: url('images/Hero\ Image.jpg') no-repeat center center/cover;
+  padding: 4rem 2rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.hero h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+.hero span {
+  color: #ffdd00;
+}
+
+.hero p {
+  max-width: 600px;
+  margin-top: 1rem;
+}
+
+.subscription {
+  background: #cbe8f3;
+  padding: 2rem;
+  text-align: center;
+}
+
+.subscribe-box {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.subscribe-box input {
+  padding: 0.5rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscribe-box button {
+  padding: 0.5rem 1rem;
+  background: #fbb03b;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lower-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* helps on smaller screens */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.decor {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.decor img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eeeeee;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
